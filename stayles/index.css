@@ -1,0 +1,59 @@
+body{
+	background-color: rgba(0, 0, 0, 0.926);
+	width: 100%;
+	height: 100%;
+}
+nav{
+	background-color: goldenrod;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.link{
+	text-decoration: none;
+	font-size: 35px;
+	color: snow;
+	font-family: fantasy;
+	margin: 50px;
+
+}
+.link:hover{
+	font-weight: bolder;
+	color: black;
+}
+.nusin{
+	margin-top: 40px;
+	border: 4px solid goldenrod;
+	width: 30%;
+	height: 70%;
+	color: snow;
+	text-align: center;
+	font-size: 35px;
+	margin: 30px;
+	font-family: fantasy;
+	border-style: groove;
+	border-radius: 30px;
+}
+img{
+	width: 300px;
+	margin: 40px;
+	border-radius: 40px;
+}
+#saraki{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	flex-wrap: wrap;
+}
+footer{
+	background-color: goldenrod;
+	height: 35px;
+	text-align: center;
+	margin-top: 45px;
+	color: snow;
+	font-size: 30px;
+	font-family:fantasy ;
+}
